@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String FILE_NAME = "user_text.txt";
 
-    EditText etTextoEntrada;
-    Button btSalvarTexto;
-    Button btCarregarTexto;
-    TextView tvTextoSaida;
+    private EditText etTextoEntrada;
+    private Button btSalvarTexto;
+    private Button btCarregarTexto;
+    private TextView tvTextoSaida;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
